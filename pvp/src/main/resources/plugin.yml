@@ -1,0 +1,17 @@
+name: '${project.parent.name}'
+version: '${project.parent.version}'
+authors: ${authors}
+website: '${project.parent.url}'
+main: pl.craftserve.pvp.PvpPlugin
+api-version: '${apiVersion}'
+description: PVP and food modifications
+
+permissions:
+  'craftservepvp.*':
+    description: 'Gives all possible permissions.'
+    default: false
+    children:
+    - 'craftservepvp.update'
+  craftservepvp.update:
+    description: 'Gives permission to receive update notifications.'
+    default: op

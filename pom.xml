@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pl.craftserve</groupId>
+    <artifactId>pvp-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>CraftservePVP</name>
+    <url>https://github.com/Craftserve/CraftservePVP</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Craftserve/CraftservePVP</url>
+        </repository>
+    </distributionManagement>
+
+    <modules>
+        <module>pvp</module>
+        <module>pvp-plugin</module>
+
+        <module>pvp-v1_16_R1</module>
+        <module>pvp-v1_16_R2</module>
+    </modules>
+</project>
