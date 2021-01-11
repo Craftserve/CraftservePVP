@@ -30,5 +30,6 @@
 
         <module>pvp-v1_16_R1</module>
         <module>pvp-v1_16_R2</module>
+        <module>pvp-v1_16_R3</module>
     </modules>
 </project>
