@@ -6,12 +6,12 @@
     <parent>
         <groupId>pl.craftserve</groupId>
         <artifactId>pvp-parent</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>pvp-plugin</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <build>
