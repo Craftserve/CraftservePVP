@@ -67,5 +67,11 @@
             <artifactId>pvp-v1_16_R3</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>pl.craftserve</groupId>
+            <artifactId>pvp-v1_17_R1</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
